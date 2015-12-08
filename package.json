@@ -1,0 +1,33 @@
+{
+  "name": "extended-define-webpack-plugin",
+  "version": "0.1.0",
+  "description": "Extended version of webpack.DefinePlugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArikMaor/extended-define-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "webpack-plugin",
+    "define-webpack-plugin",
+    "json",
+    "javascript"
+  ],
+  "author": "Arik Maor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArikMaor/extended-define-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/ArikMaor/extended-define-webpack-plugin#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "peerDependencies": {
+    "webpack": "^1.12.9"
+  }
+}

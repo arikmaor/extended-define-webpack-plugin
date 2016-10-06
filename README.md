@@ -7,7 +7,7 @@ npm install extended-define-webpack-plugin --save-dev
 ```
 
 ## Example Usage
-we want to inject a configuration object and use it in our code.
+We want to inject a configuration object and use it in our code.
 ```js
 // app.config.js
 module.exports = {
@@ -19,7 +19,7 @@ module.exports = {
 };
 ```
 
-We use the `ExtendedDefinePlugin` in out webpack configuration like this:
+We use the `ExtendedDefinePlugin` in our webpack configuration like this:
 ```js
 // webpack.config.js
 
@@ -37,7 +37,7 @@ module.exports = {
 };
 ```
 
-in out client code we can just use it!
+In our client code we can just use it!
 ```js
 // main.js
 
